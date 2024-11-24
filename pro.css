@@ -1,43 +1,98 @@
-header{
-    font-family:"roboto" ;
-
-}
-
-header,footer, .hero{
-    background-color:#1f2937;
-}
-
-.hero h1{
-    font-size:48px;
-    color:#f9faf8;
-    font-weight:900px;
-}
-
-.hero p,a{
-    font-size:18px;
-    color:#e5e7eb;
-}
-
-div.header{
-    font-size:24px;
-    color:#f9faf8;
-}
-
-.cta,button{
-    background-color:#3882f6;
-}
-
-.info-section h2{
-    font-size:36px;
-    color:#1f2937;
-    font-weight:900;
-}
-
-.testimonial{
-    background-color:#e5e7eb;
-    
-}
-blockquote{
-    font-size:36px;
-    color:#1f2937;
-}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  header {
+    background-color: #1e293b;
+    color: white;
+    padding: 16px 32px; /* 1rem = 16px, so 1rem 2rem becomes 16px 32px */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header .logo {
+    font-size: 24px; /* 1.5rem = 24px */
+    font-weight: bold;
+  }
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 24px; /* 1.5rem = 24px */
+  }
+  .hero {
+    background-color: #1e293b;
+    color: white;
+    padding: 32px; /* 2rem = 32px */
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero h1 {
+    font-size: 40px; /* 2.5rem = 40px */
+  }
+  .hero p {
+    margin: 16px 0; /* 1rem 0 = 16px 0 */
+  }
+  .hero button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 12.8px 24px; /* 0.8rem 1.5rem = 12.8px 24px */
+    font-size: 16px; /* 1rem = 16px */
+    cursor: pointer;
+    border-radius: 4.8px; /* 0.3rem = 4.8px */
+  }
+  .hero img {
+    max-width: 50%;
+    background-color: #cbd5e1;
+    padding: 32px; /* 2rem = 32px */
+  }
+  .info-section {
+    text-align: center;
+    padding: 32px; /* 2rem = 32px */
+  }
+  .info-section h2 {
+    font-size: 28.8px; /* 1.8rem = 28.8px */
+    margin-bottom: 16px; /* 1rem = 16px */
+  }
+  .info-section .info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 24px; /* 1.5rem = 24px */
+  }
+  .info-section .info-box {
+    border: 2px solid #3b82f6;
+    padding: 24px; /* 1.5rem = 24px */
+    width: 240px; /* Adjust for consistency */
+    border-radius: 8px; /* 0.5rem = 8px */
+  }
+  .testimonial {
+    background-color: #f1f5f9;
+    color: #4b5563;
+    padding: 32px; /* 2rem = 32px */
+    text-align: center;
+    font-style: italic;
+  }
+  .cta {
+    background-color: #3b82f6;
+    color: white;
+    text-align: center;
+    padding: 32px; /* 2rem = 32px */
+  }
+  .cta button {
+    background-color: white;
+    color: #3b82f6;
+    border: none;
+    padding: 12.8px 24px; /* 0.8rem 1.5rem = 12.8px 24px */
+    font-size: 16px; /* 1rem = 16px */
+    cursor: pointer;
+    border-radius: 4.8px; /* 0.3rem = 4.8px */
+  }
+  footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 16px; /* 1rem = 16px */
+  }
