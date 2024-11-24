@@ -1,19 +1,19 @@
-header[{
+header{
     font-family:"roboto" ;
 
 }
 
-header,footer,hero{
+header,footer, .hero{
     background-color:#1f2937;
 }
 
-h.hero{
+.hero h1{
     font-size:48px;
     color:#f9faf8;
     font-weight:900px;
 }
 
-p.hero,a{
+.hero p,a{
     font-size:18px;
     color:#e5e7eb;
 }
@@ -27,7 +27,7 @@ div.header{
     background-color:#3882f6;
 }
 
-h.info-section{
+.info-section h2{
     font-size:36px;
     color:#1f2937;
     font-weight:900;
