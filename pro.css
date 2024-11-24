@@ -1,0 +1,43 @@
+header[{
+    font-family:"roboto" ;
+
+}
+
+header,footer,hero{
+    background-color:#1f2937;
+}
+
+h.hero{
+    font-size:48px;
+    color:#f9faf8;
+    font-weight:900px;
+}
+
+p.hero,a{
+    font-size:18px;
+    color:#e5e7eb;
+}
+
+div.header{
+    font-size:24px;
+    color:#f9faf8;
+}
+
+.cta,button{
+    background-color:#3882f6;
+}
+
+h.info-section{
+    font-size:36px;
+    color:#1f2937;
+    font-weight:900;
+}
+
+.testimonial{
+    background-color:#e5e7eb;
+    
+}
+blockquote{
+    font-size:36px;
+    color:#1f2937;
+}
